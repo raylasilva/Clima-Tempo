@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  box-sizing: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(199, 221, 230);
+}
+
+#box {
+  justify-content: center;
+  background-color: rgb(231, 231, 230);
+  border: 100px;
+  width: 300px;
+  height: 320px;
+  margin-left: 40%;
+  margin-top: 8%;
+  padding: 25px;
+  border-radius: 4%;
+  border-color: rgb(78, 77, 77);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.titleCT {
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: rgb(121, 154, 170);
+  font-family: sans-serif;
+}
+
+hr {
+  background-color: rgb(148, 148, 148);
+  height: solid 0.1px;
+}
+
+form input button {
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  left: 30px;
+  gap: 20px;
+}
+input {
+  border-radius: 0.5cap;
+  border-color: azure;
+  margin-top: 40px;
+  width: 210px;
+  padding: 3px;
+}
+button {
+  font-family: sans-serif;
+  background-color: rgb(17, 133, 211);
+  border-radius: 10%;
+  padding: 3px;
+  color: aliceblue;
+}
